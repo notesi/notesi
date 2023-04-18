@@ -1,0 +1,265 @@
+*{
+    font-family: 'Inter', sans-serif,'Times New Roman', Times, serif;
+    margin: 0px;
+    padding: 0px;
+    font-size: 12px;
+    box-sizing: border-box;
+}
+body{
+    
+    background-color: #d2b7e5;
+    
+}
+#divide{
+    display: flex;
+    flex-direction: column;
+}
+/* ###########nav############# */
+nav,footer,main{
+    /* border: 1px solid red; */
+    margin:3.5vh auto;
+    margin-bottom: 0;
+    width: 85vw;
+    height: 85vh;
+    background-color:#f4fae5; 
+    border-radius: 10px;
+   
+
+}
+/* #########header######### */
+header{
+    display: flex;
+    /* justify-content: space-between; */
+    position: relative;
+    top:7%;
+    align-items: center;
+
+}
+#domain{
+    font-size: 2rem;
+    color:#7d36db;
+    font-weight: 600;
+    margin-left: 5%;
+    flex-grow: 1;
+}
+#header_options{
+    list-style-type: none;
+    display: flex;
+    flex-grow: 2;
+    justify-content: space-around;
+}
+#header_options li{
+    font-size: 1.6rem;
+    font-weight: 500;
+}
+#register{
+    flex-grow: 1;
+    margin-left:10%;
+}
+#register button{
+    font-size: 1.6rem;
+    padding:0.75rem 3.5rem;
+    border-radius: 5px;
+    background-color: #5b00c4;
+    color:white;
+    border:none;
+}
+
+/* ####################### */
+#header_div{
+    /* border:1px solid red; */
+    position: absolute;
+    top:20%;
+    left:10%;
+    right: 5%;
+    bottom: 5%;
+    display: flex;
+    
+}
+#header_div1{
+    /* border:1px solid blue; */
+    max-width: 50%;
+}
+#header_div2{
+    /* border:1px solid green; */
+    display: flex;
+    justify-content: space-around;
+    position: relative;
+}
+.header_titles{
+    font-size: 2.7rem;
+    font-weight: 600;
+    margin:0.8% 0px;
+}
+#header_content{
+    font-size: 1.4rem;
+    letter-spacing: 0.8px;
+    font-weight: 400;
+    line-height: 19px;
+}
+#grey{
+    color:#6c757d;
+    margin-top:5%;
+}
+#black{
+    color:#01161e;
+}
+#purple{
+    color:#7d36db;
+    margin-bottom: 3%;
+}
+
+#header_search{
+    margin-top: 5%;
+    margin-left: 1.3%;
+    display: flex;
+}
+
+#header_search input{
+    border:none;
+    height: 6vh;
+    width: 25vw;
+    font-size: 1.3rem;
+    border-top-left-radius:7px;
+    border-bottom-left-radius:7px;
+    padding-left:7% ;
+    font-weight: 500;
+
+}
+#header_search button{
+    border:none;
+    background-color: #5b00c4;
+    color:white;
+    padding: 1rem 2rem;
+    font-size: 1.3rem;
+    border-top-right-radius:7px;
+    border-bottom-right-radius:7px;
+}
+::placeholder{
+    padding-left: 10px;
+}
+#search{
+    height:2.5vh;
+    position: absolute;
+    left:1.7%;
+    margin-top: 1.1rem;
+
+}
+.header_images{
+    height: 40vh;
+    width:13vw;
+    border-radius: 10px;
+    position: relative;
+    
+}
+#first_img{
+    margin-left: 10vh;
+    margin-top:20vh;
+    
+}
+#second_img{
+    position: absolute;
+    left:105%;
+}
+#other{
+    position: absolute;
+    top:38vh;
+    z-index: 100;
+    background-color: #5b00c4;
+    border-radius: 5px;
+    color:white;
+    padding: 1vh 2vh;
+    right: -26vh;
+    left:25vh;
+
+}
+#other li{
+    list-style-type: none;
+    font-size: 1.5rem;
+    font-weight: 500;
+
+}
+#p_1{
+    margin-bottom: 3px;
+}
+
+/* ########footer############ */
+footer{
+    background-color:#f4fae5; 
+    border-radius: 10px;
+    margin-top: 10px;
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 3vh;
+
+}
+footer .group{
+    /* border:1px solid red; */
+    flex-wrap: wrap;
+    flex-grow: 1;
+    width: 30%;
+    
+}
+#ek{
+    /* border: 1px solid red; */
+    height: 10vh;
+    margin:4% auto;
+    font-size: 2.5rem;
+    font-weight: 600;
+    letter-spacing: 0.05rem;
+
+    
+}
+#do{
+    /* border: 1px solid blue; */
+    display:flex;
+    flex-direction: column;
+    margin-left: 13%;
+    margin-right: 8%;
+}
+#inside_ek{
+    /* border: 1px solid green; */
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 15px;
+
+   
+}
+#inside_do{
+    display: flex;
+}
+footer .group{
+    min-height: 27vh;
+    display: flex;
+    flex-direction: column;
+}
+footer img{
+    width: 7vh;
+    margin-left: 10px;
+    margin-bottom: 14px;
+}
+
+footer span{
+    font-size:1.55rem;
+    font-weight: 500;
+    margin-bottom:5px;
+    
+}
+footer p{
+    max-width: 80%;
+    font-size: 1.05rem;
+    
+}
+
+/* ##########main########### */
+
+main{
+    /* border:1px solid red; */
+    height: 120vh;
+    
+}
+main li{
+    font-size:3rem;
+    list-style-type: none;
+}
+
